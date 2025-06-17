@@ -50,7 +50,6 @@ Uma tabela foi criada inteiramente com DAX, contendo apenas as opções de filtr
 #### Modelo de dados
 ![Modelo de dados](assets/dashboard_modelo_de_dados.png)
 
-
 ---
 
 ## 5. 💡 Principais Insights Gerados
@@ -60,10 +59,13 @@ O dashboard permite identificar rapidamente insights como:
 * Os principais fluxos logísticos nacionais e os estados com melhores e piores performances de entrega.
 * A performance de cada vendedor, cruzando dados de receita com a satisfação dos clientes.
 * Entender a real "voz do cliente" ao comparar a nota numérica da avaliação com o sentimento expresso no texto do comentário.
+
 ---
 
 ## 7. 📢 Créditos
 Este projeto foi desenvolvido utilizando dados do Kaggle, do repositório **Brazilian E-Commerce Public Dataset by Olist**
+
+---
 
 ## 8. Autor
 * **Carlos Vinícius**
