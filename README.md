@@ -47,7 +47,7 @@ Uma tabela foi criada inteiramente com DAX, contendo apenas as opções de filtr
 ![Entrega e Logística](assets/dashboard_vendedores.png)
 
 #### Modelo de dados
-![Entrega e Logística](assets/dashboard_modelo_de_dados.png)
+![Modelo de dados](assets/dashboard_modelo_de_dados.png)
 
 
 ---
