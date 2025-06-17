@@ -27,6 +27,9 @@ O desenvolvimento do projeto seguiu algumas das melhores práticas de Business I
 * **Tratamento de Dados:** Limpeza e transformação de dados no Power Query, com atenção especial ao tratamento de valores nulos e à garantia da integridade referencial entre as tabelas de fatos e dimensões.
 * **Enriquecimento com NLP:** Um script em Python foi desenvolvido para realizar análise de sentimento nos comentários dos reviews, classificando-os como Positivo, Negativo ou Neutro e gerando um score de polaridade. Este novo dataset enriquecido foi usado para as análises de satisfação.
 * **Design e UX:** Criação de um tema JSON customizado baseado na identidade visual da Olist (cores e fontes), garantindo consistência. O layout das páginas foi projetado para contar uma história, guiando o usuário do geral para o específico, utiliziando de recursos como tabela dinâmicas, tooltips customizados e interações de destaque condicional.
+* **Geração de Novas Features:** O processo gerou um novo dataset enriquecido com as colunas `Sentiment_Class` e `Sentiment_Polarity`, que foram importadas para o Power BI para alimentar as análises de satisfação do cliente.
+* **Criação de Métricas DAX:** Foram desenvolvidas dezenas de medidas DAX para calcular KPIs essenciais, como `Receita Total`, `Ticket Médio`, `Tempo Médio de Entrega (Dias)`, e medidas de suporte para interações avançadas, como `[Rank Categoria por Receita]` e `[Cor Destaque Categoria]` e uma métrica para filtro dinâmico de tabelas.
+Uma tabela foi criada inteiramente com DAX, contendo apenas as opções de filtro ("Pedidos no Prazo", "Pedidos Atrasados"). Esta tabela é intencionalmente não relacionada a nenhuma outra no modelo, atuando puramente como um "painel de botões" para o usuário. Conectando a parte lógica com a parte interativa do visual, no slicer "Filtro de Pedidos" na página "Entrega e Logística"
 
 ---
 
@@ -43,15 +46,19 @@ O desenvolvimento do projeto seguiu algumas das melhores práticas de Business I
 #### Página 4: Vendedores
 ![Entrega e Logística](assets/dashboard_vendedores.png)
 
+#### Modelo de dados
+![Entrega e Logística](assets/dashboard_modelo_de_dados.png)
+
+
 ---
 
 ## 5. 💡 Principais Insights Gerados
 O dashboard permite identificar rapidamente insights como:
+* Identificar as categorias de produtos mais rentáveis e com melhor avaliação dos clientes através da matriz de Custo vs. Benefício.
 * A forte correlação entre o tempo de entrega e as avaliações dos clientes.
-* O posicionamento estratégico de cada categoria de produto em uma matriz de Custo vs. Benefício.
 * Os principais fluxos logísticos nacionais e os estados com melhores e piores performances de entrega.
 * A performance de cada vendedor, cruzando dados de receita com a satisfação dos clientes.
-
+* Entender a real "voz do cliente" ao comparar a nota numérica da avaliação com o sentimento expresso no texto do comentário.
 ---
 
 ## 6. Autor
