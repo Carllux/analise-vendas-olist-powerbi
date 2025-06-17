@@ -7,6 +7,7 @@ Dashboard analítico 360° do e-commerce Olist, transformando dados de vendas, l
 Este projeto consiste na criação de um dashboard completo em Power BI para análise de performance da Olist, a maior loja de departamentos em marketplaces brasileiros. O painel oferece uma visão 360° do negócio, abrangendo desde KPIs executivos até análises detalhadas de vendas, logística, satisfação do cliente e desempenho dos vendedores.
 
 **[🔗 Clique aqui para acessar o Dashboard Interativo](https://app.powerbi.com/view?r=eyJrIjoiZDNkMGEyYTctNjE2YS00ZTg4LTk2NWUtYTFjYmE5NDA4NWM3IiwidCI6IjMyNDFkMzllLTdiZDEtNDQ2My05ZGFmLWU2M2M2MWZjOWRkYyJ9)**
+
 **[🔗 Clique aqui para baixar o Dashboard no formato .pbix](https://drive.google.com/file/d/1Tjdjn93Ynnyw8OoBOVD1sr8e8VfO5ich/view?usp=sharing)**
 
 ---
@@ -61,7 +62,10 @@ O dashboard permite identificar rapidamente insights como:
 * Entender a real "voz do cliente" ao comparar a nota numérica da avaliação com o sentimento expresso no texto do comentário.
 ---
 
-## 6. Autor
+## 7. 📢 Créditos
+Este projeto foi desenvolvido utilizando dados do Kaggle, do repositório **Brazilian E-Commerce Public Dataset by Olist**
+
+## 8. Autor
 * **Carlos Vinícius**
 * **LinkedIn:** [https://www.linkedin.com/in/carlos-vinicius-nascimento-de-jesus/]
 * **GitHub:** [https://github.com/Carllux/] 
