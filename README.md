@@ -30,6 +30,14 @@ O desenvolvimento do projeto seguiu algumas das melhores práticas de Business I
 ---
 
 ## 4. 🖼️ Galeria de Páginas do Dashboard
+#### Página 1: Visão Geral
+![Visão Geral](assets/dashboard_visao_geral.png)
+
+#### Página 2: Vendas e Produtos
+![Vendas e Produtos](assets/dashboard_vendas.png)
+
+#### Página 3: Entrega e Logística
+![Entrega e Logística](assets/dashboard_logistica.png)
 
 
 ---
